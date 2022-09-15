@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author JSale
+ *
+ */
+module HelloWorld {
+}

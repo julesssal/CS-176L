@@ -2,7 +2,7 @@
 public class Microwave {
 
 	private int time;
-	private int power;
+	private int power=1;
 
 
 	public void time(){
@@ -11,7 +11,12 @@ public class Microwave {
 	}
 	
 	public void power() {
-		power = 2;
+		power++;
+		
+		if (power==3) {
+			power = 1;
+		}
+		
 		System.out.println("Power Button was pressed. Power level is "+ power);
 		
 	}
